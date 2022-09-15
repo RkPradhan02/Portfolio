@@ -1,0 +1,928 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    
+    font-family:Arial;
+}
+.uparrow{
+    background: rgb(0, 194, 184);
+    color: white;
+    position: fixed;
+    
+    bottom: 30px;
+    right: 30px;
+    border-radius: 100%;
+    border: none;
+    
+    padding: 20px;
+}
+.uparrow i{
+    font-size: 16px;
+}
+.headerlg{
+    display: none;
+}
+.header, .headerlg{
+    height: 56px;
+    background: #00c2b8;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.header img{
+    
+    height: 20px;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    
+}
+.header .searchmenu { 
+    color: #ffffff;
+    font-size: 22px;  
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    }
+.header .searchmenu .fa-ellipsis-v{
+    margin: 0px 0px 0px 10px;
+}
+.hero-section{
+    font-family: Arial ;
+    
+    padding: 120px 10px 10px 10px;
+    width: 100%;
+    
+    background: url(../images/index-3-1-1144x912-min.jpg);
+    background-size: 100% 100%;  
+    color: #29293a;
+    line-height: 1.5;    
+    
+}
+.hero-section img{
+    display: none;
+}
+.hero-section h1{
+    
+    font-weight: bold;
+    font-size: 27px;
+    
+}
+.hero-section p{
+    
+    font-size: 18px;
+    
+    color: #5f5656;
+    margin: 0px 0px 30px 0px;
+}
+.hero-section input[type="button"]{
+    
+    background: linear-gradient(to right, rgba(0, 160, 133, 0.7), rgba(0, 219, 142,1));
+    border-radius: 30px 30px 30px 30px;
+    padding: 14px 51px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 3px 21px 4px rgba(113, 113, 114,0.7);
+    margin: 0px 0px 50px 0px ;
+}
+.benefits{
+    background: rgb(242, 242, 242);
+    padding: 20px;
+}
+.benefits div{
+    text-align: center;
+    padding: 0px 5px 0px 5px ;
+    
+}
+.benefits div:first-child{
+    margin: 40px 0px 40px 0px;
+}
+.benefits div:last-child{
+    margin: 40px 0px 20px 0px;
+}
+.benefits div h5, .benefits div h3{
+    font-weight: lighter;
+
+}
+.benefits div hr{
+    width: 50px;
+    margin: 20px auto;
+    border: 1px solid #00db8e;
+    
+
+}
+.benefits div p{
+    color: #424247;
+}
+.testimonials{
+    padding: 20px;
+}
+.testimonials h2{
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+    font-weight: lighter;
+    font-size: 28px;
+
+}
+.testimonials .videobox{
+   
+    background: linear-gradient(rgba(5, 122, 107, 0.4),rgba(64, 224, 203, 0.4)), url(../images/depositphotos_107199792-stock-photo-girl-with-phone-and-smart-min.jpg);
+    background-size: 100% 100%;
+    border-radius: 15px;
+    height: 150px;
+   
+    text-align: center;
+   
+}
+.testimonials .videobox i{
+    color: #ffffff;
+   margin: 25px auto;
+    
+    font-size: 100px;
+}
+.testimonials .mariemsg .msgbox{
+    margin-top: 20px ;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 94%, 21% 94%, 16% 100%, 13% 94%, 0 94%);
+    background: #f2f2f2;
+    padding: 25px ;
+    box-shadow: 0 3px 29px 0 rgb(41 41 58 / 25%);
+    z-index: 200 ;
+}
+.testimonials .mariemsg .msgbox i{
+    color: rgb(245, 245, 9);
+    margin-bottom: 10px;
+}
+.testimonials .mariemsg .msgbox p{
+    text-align: left;
+    font-style: italic;
+    line-height: 20px;
+}
+.testimonials .mhanson img{
+    border: none;
+    border-radius: 100%;
+    
+    margin: 0px 0px -55px 0px;
+
+
+}
+.testimonials .mhanson h4{
+    color: #00db8e;
+    display: inline-block;
+    margin: 15px 0px 10px 0px;
+    
+}
+.testimonials .mhanson p{
+    display: inline-block;
+    color: #828590;
+    font-size: 16px;
+    line-height: 20px;
+    font-style: italic;
+    text-align: left;
+    margin:0px 0px 20px 80px;
+}
+.cards{
+    
+    margin: 20px 0px 0px 0px;
+}
+.cards .cardrow{
+    border: none;
+    padding: 30px 10px;
+    
+    box-shadow: 0px 0px 20px 0px rgba(66, 66, 68, 0.8);
+    background: linear-gradient(to right, rgba(0, 160, 133, 0.7), rgba(51, 219, 160, 0.7));
+}
+.cards .cardrow div{
+    color: #ffffff;
+    padding: 20px 0px 20px 10px ;
+}
+.cards.cardrow div:nth-child(3){
+    
+    padding: 0px 0px 50px 0px;
+    
+}
+.cards .cardrow div i{
+    margin: 0px 15px 20px 0px;
+    
+    font-size: 30px;
+}
+.cards .cardrow div h3{
+    display: inline-block;
+    font-weight: lighter;
+}
+.cards .transparent{
+    background: linear-gradient(to right, rgba(0, 160, 133, 0.7), rgba(51, 219, 160, 0.7)), url(../images/parallax-1-min.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 200px;
+    
+    padding: 30px 50px;
+    text-align: center
+
+}
+.cards .transparent p{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    
+}
+.cards .transparent input[type="button"]{    
+    border-radius: 30px 30px 30px 30px;
+    padding: 14px 40px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 3px 21px 4px rgba(41, 41, 58,0.4 );
+    margin: 30px auto ;
+}
+.aboutus{
+    background: rgb(242, 242, 242);
+    padding: 40px 20px;
+}
+.aboutus .auscontent{
+    color:rgb(41, 41, 58);
+    text-align: center;
+}.aboutus .ausimg{
+    display: none;
+}
+.aboutus .auscontent h2{
+    text-align: center;
+    font-weight:lighter;
+    font-size: 28px;
+    color: #616266;
+   
+    margin:5px 0px 15px 0px;
+    
+}
+.aboutus .auscontent p{
+    line-height: 1.5;
+    color: #616266;
+    font-size: 18px;
+    margin: 0px 0px 10px 0px;
+    
+}
+.aboutus .auscontent ul li{
+    display: inline-block;
+    margin: 20px 10px 0px 0px ;
+}
+.aboutus .auscontent ul li:first-child{
+    margin: 0px 50px 0px 0px ;
+}
+.aboutus .auscontent ul li div{
+  
+    height: 100px;
+    width: 100px;
+   
+    border-radius: 100%;
+    padding: 40px 0px 0px 4px ;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid rgba(145, 141, 141, 0.603);
+   
+}
+.aboutus .auscontent .c1,
+.aboutus .auscontent .c2,
+.aboutus .auscontent .c3{
+    display: inline-block;
+    margin: 10px 0px 20px 0px;
+}
+.aboutus .auscontent input[type="button"]{
+    background: linear-gradient(to right, rgba(0, 160, 133, 0.7), rgba(51, 219, 160, 0.7));
+    border-radius: 30px 30px 30px 30px;
+    padding: 14px 45px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 3px 21px 4px rgb(41 41 58 / 20%);
+    margin: 0px 0px 10px 0px ;
+}
+.team{
+    padding: 25px 15px;
+    text-align: center;
+}
+.team h2{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 28px;
+    margin: 20px auto;
+}
+.team  div h3{
+    font-weight: lighter;
+    text-align: left;
+    color: rgb(59, 227, 168);
+    margin-top: 10px;
+    
+}
+.team div h5{
+    text-align: left;
+    margin: 5px 0px 10px 0px;
+    color: rgb(155, 157, 166);
+    font-style: italic;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.team div img{
+    border-radius: 10px;
+    width: 100%;
+}
+.team div p{
+    text-align: left;
+    line-height: 25px;
+}
+.team div ul li i:hover{
+    color: rgb(0, 143, 92);
+}
+.team .u2{
+    display: none;
+}
+.team .u3{
+    display: none;
+}
+.team .u4{
+    display: none;
+}
+.team div ul{
+    text-align: left;
+} 
+.team div ul li{
+   
+    display: inline-block;
+    margin: 15px 15px 20px 0px;
+    color: rgb(174, 177, 190);
+}
+.team input[type="button"] {
+    background: linear-gradient(to right, rgba(0, 160, 133, 0.7), rgba(51, 219, 160, 0.7));
+    border-radius: 30px 30px 30px 30px;
+    padding: 14px 45px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 3px 21px 4px rgba(41, 41, 58 , 20%);
+    
+}
+.blog{
+    background: rgb(242, 242, 242);
+    
+    padding: 40px 15px;
+    text-align: center;
+    
+}
+.blog div{
+    background: white;
+    padding: 10px 0px ;
+    margin: 0px 0px 20px 0px;
+    border-radius: 10px;
+    text-align: left;
+   
+}
+.blog .b4{
+    display: none;
+}
+.blog div p{
+    margin: 0px 0px 0px 10px;
+    color: #828590;
+    line-height: 25px;
+    text-align: left;
+}
+
+.blog div h4{
+    margin: 10px 0px 10px 10px;
+    color: #00db8e;
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: left;
+    
+ }  .blog div h4{
+    margin: 10px 0px 10px 10px;
+    color: #00db8e;
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: left;
+    
+ } 
+ .blog div input[type="button"]{
+    margin: 0px 0px 0px 10px;
+    background: #00db8e;
+    color: white;
+    padding: 3px 9px;
+    font-weight: lighter;
+    border: none;
+    font-size: 16px;
+    border-radius: 2px;
+
+}
+.blog h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: lighter;
+    margin: 0px 0px 20px 0px ;
+    
+}
+.blog div img{
+   
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+    
+}
+.blog div p .name{
+    color: #00db8e;
+    padding: 0px 70px 0px 0px;
+    
+}
+.blog input[type="button"], .sinfo .scontent input[type="button"]{
+    background: linear-gradient(to right, rgba(0, 160, 133, 0.7), rgba(51, 219, 160, 0.7));
+    border-radius: 30px 30px 30px 30px;
+    padding: 14px 45px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 3px 21px 4px rgba(14, 14, 59, 0.2);
+   
+}
+.sinfo .simg{
+    display: none;
+}
+.sinfo .scontent{
+    padding: 15px;
+}
+.sinfo .scontent h2{
+    font-weight: lighter;
+    font-size: 28px;
+    margin: 20px 0px 8px 0px;
+} 
+.sinfo .scontent p{
+    display: inline-block;
+    line-height: 25px;
+    color: #828590;
+    font-size: 16px;
+}
+.sinfo .scontent input[type="button"]{
+     margin: 20px 0px 20px 0px ; 
+}
+.newsletter{
+    padding: 30px 0px;
+    text-align: center;
+    background: linear-gradient(to right, rgba(0, 160, 133, 0.8), rgba(0, 219, 142,0.6));
+}
+.newsletter h2{
+    color: white;
+    font-weight: lighter;
+    font-size: 24px;
+    margin: 0px 0px 20px 0px;
+  
+}
+.newsletter input[type="email"]{
+    padding: 15px;
+    border-radius: 50px ;
+    font-size: 20px;
+    border: none;
+}
+
+.footer{
+    padding: 30px 25px;
+    background: rgb(21, 21, 21);
+    color: rgb(133, 130, 130);
+    
+}
+.footer div{
+    display: inline-block;
+}
+.footer .aus p{
+    line-height: 1.5;
+    margin: 10px 0px 0px 0px;
+}
+.footer div h3{
+    color: white;
+    font-weight: lighter;
+    margin: 15px 0px 15px 0px ;
+}
+.footer .cinfo h3{
+    margin: 30px 0px 10px 0px;
+}
+.footer .cinfo .place li{
+    display: inline-block;
+    margin: 10px 35px 10px 0px ;
+}
+.footer .cinfo .place li:last-child{
+    margin: 10px 0px 15px 0px;
+}
+.footer .cinfo hr{
+    margin: 0px 0px 20px 0px ;
+    border: 0.5px solid gray;
+}
+.footer .cinfo .contact li{
+    margin: 0px 0px 20px 0px;
+    line-height: 1.7;
+    text-align: left;
+}
+.footer .cinfo .contact li i{
+    color: rgb(0, 213, 138);
+    margin: 0px 10px 0px 0px ;
+}
+.footer .cinfo .contact li p{
+    margin: 0px 0px 0px 25px;
+}
+.footer .letter h3{
+    margin: 20px 0px 15px 0px;
+}
+.footer div p{
+    line-height: 25px;
+}
+.footer .letter input[type="email"]{
+    border-radius: 8px ;
+    font-size: 18px;
+    padding: 12px;
+    width: 100%;
+    border: none;
+}
+.footer .letter input[type="submit"]{
+    background: linear-gradient(to right, rgba(0, 160, 133, 1), rgba(51, 219, 160, 0.7));
+    border-radius: 8px;
+    padding: 12px 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    margin: 8px 0px 20px 0px ;
+    
+}
+.footer .icn ul li{
+    display: inline-block;
+    margin: 0px 10px 0px 3px ;
+}
+.footer .rights p{
+    margin: 10px 0px;
+}
+.footer .rights ul li{
+    display: inline-block;
+    margin: 15px 15px 20px 0px;
+    color: rgb(174, 177, 190);
+}
+.footer .imagesgrid{
+    width: 230px;
+
+}
+.footer .map{
+    display: none;
+}
+.container input[type="button"]:hover{
+    background: rgb(0, 194, 184);
+    
+}
+.cards .transparent input[type="button"]:hover{
+    background: white;
+    border: 1px solid gray;
+}
+
+.uparrow:hover{
+    background: rgb(4, 124, 118);
+}
+.footer .letter input[type="submit"]:hover{
+    background: rgb(0, 194, 184);
+}
+.footer .icn .logs li i:hover{
+    color: rgb(0, 219, 142);
+}
+@media only screen and (min-width:768px){
+    .hero-section h1{
+        width: 75vw;
+    }
+    .hero-section p{
+        width: 50vw;
+    }
+    .benefits{
+        align-items: center;
+    }
+    .benefits div{
+        display: inline-block;
+        width: 32%;
+        margin: 0px 0px 0px 0px ;
+        padding: 0px 15px 0px 15px;
+    }
+    .benefits div:nth-child(2){
+        margin: 0px 10px 0px 10px;
+    }
+    .benefits div p{
+        line-height: 1.5;
+    }
+        .testimonials{
+        padding: 0px 100px 0px 100px; 
+    }
+   .testimonials .videobox{
+    height: 350px;
+    text-align: center;
+    }
+    .testimonials .videobox i{
+        
+        margin: 100px 0px 0px 0px ; 
+        
+    }
+    .testimonials .mariemsg{
+        margin: 0px 0px 0px 0px;
+    }
+    .testimonials .mariemsg .mhanson h4{
+        margin: 0px 10px 10px 85px  ;
+        display: block;
+    }
+    .testimonials .mariemsg .msgbox p{
+        line-height: 1.5;
+    }
+    .cards .cardrow div{
+        display: inline-block;
+        width: 49%;
+    }
+    .cards .transparent p{
+        display: inline-block;
+    }
+    .aboutus .auscontent ul li:last-child{
+        margin: 0px 0px 0px 50px ; 
+   }
+   .team .u2{
+    display: block;
+    display: inline-block;
+    } 
+    .team div{
+        display: inline-block;
+        width: 45vw;
+    }
+    .blog div{
+        display: inline-block;
+        width: 45vw;
+        
+    }
+    .blog div p .name{
+        padding: 0px 130px 0px 0px;
+        
+    }
+    
+    .blog .b1{
+        margin: 0px 10px 20px 0px; 
+   }
+
+   .blog .b4{
+       display: block;
+       display: inline-block;
+       visibility: hidden;
+       border: none;
+    }
+   .sinfo .scontent img{
+    width: auto;
+    margin: 0px 0px -90px 0px;
+} 
+.sinfo .scontent p{
+    width: 50%;
+    margin: 0px 0px 0px 10px;
+}
+.sinfo .scontent input[type="button"]{
+    margin: 10px 0px 50px 300px;
+}
+.footer div{
+    width: 48%;
+    margin: 0px 10px 0px -5px;
+}
+.footer .letter input[type="email"]{
+    width: 55%;
+    margin: 0px -15px 0px 0px ;
+}
+.footer .letter input[type="button"]{
+    width: 37%;
+    margin: 0px 0px 0px -22px ;
+    
+}
+.team div .symbols li i:hover{
+    color: rgb(0, 143, 92);
+}
+}
+@media only screen and (min-width:1024px){
+    .header{
+        display: none;
+    }
+    .headerlg{
+        display: block;
+        
+        width: 100%;
+        height: 56px;
+        padding: 15px 10px;
+        border: 1px solid #00c2b8;
+        background: #00c2b8;
+        position: fixed;
+        
+        z-index: 1000; 
+   
+    }
+    .headerlg ul li {
+        display: inline-block;
+        margin: 0px 40px 0px 0px ;
+        font-size: 18px;
+    }
+    .headerlg ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: lighter;
+        
+    }
+    .headerlg ul li:first-child{
+        margin: 0px 40px 0px 20px;
+    }
+    .headerlg p a{
+        display: inline-block;
+        color: #ffffff;
+        text-decoration: none;
+        position: absolute;
+        top: 18px ;
+        right: 28px;
+        font-size: 18px;
+        font-weight: lighter;        
+    }
+    .headerlg ul li a:hover{
+        color: black;
+    }
+    .headerlg p a:hover{
+        color: black;
+    }
+    .hero-section img{
+        display: block;
+        margin: 40px 0px 30px 10px;
+    } 
+    .testimonials div{
+        
+        padding: 0px 0px  0px  0px ;
+       
+    }
+    .testimonials .videobox{
+       
+        width: 62%;
+        float: left;
+        height: 400px;
+        margin: 0px 0px 40px 0px ; 
+        
+        
+    }
+    .testimonials .videobox i{
+      
+        margin: 150px auto;
+         
+     }
+     .testimonials .mariemsg{
+         width: 35%;
+         float: right;
+         
+     }
+     
+     .testimonials .mariemsg .mhanson{
+         margin-top: 20px ;
+         width: 100%;
+     
+     }
+     .testimonials .mhanson p{
+         font-size: 14px;
+         width: 100%;
+     }
+     .cards{
+        clear: both;
+        
+    }
+     .cards .cardrow div{
+        width: 24.5%;
+        margin: 0px 0px 0px 0px;
+        
+    }
+    .team .u3{
+        display: block;
+        display: inline-block;
+        
+    }
+
+    .team div{
+        width: 32%;
+    }
+    .blog .b4{
+        display: none;
+    }
+    .blog div{
+        width: 32%;
+    }
+    .blog div p .name{
+        padding: 0px 110px 0px 0px;
+        
+    }
+    .blog .b2 p{
+        line-height: 1.3;
+    }
+    .blog .b2{
+        margin: 0px 8px 0px 0px;
+    }
+    .sinfo .scontent{
+        width: 70%;
+        display: inline-block;
+    }
+    .sinfo .simg{
+        display: block;
+        display: inline-block;
+        position: absolute;
+        overflow: hidden; 
+        
+    }
+    .newsletter h2{
+        display: inline-block;
+        padding: 0px 40px 0px 0px;
+
+    }
+    .footer .aus p{
+        line-height: 1.75;
+    }
+    .team div .symbols li i:hover{
+        color: rgb(0, 143, 92);
+    }
+}
+@media only screen and (min-width:1270px){
+    
+    
+    .aboutus{
+        padding: 40px 0px 40px 20px;
+    }
+    .aboutus .auscontent{
+        text-align: left;
+    }
+    .aboutus .auscontent p{
+        text-align: left;
+    }
+    .aboutus .auscontent ul{
+        padding: 0px 0px 0px 80px;
+    }
+    .aboutus .auscontent ul li div{
+        margin: 0px 0px 0px 0px;
+        padding: 40px 0px 0px 28px;
+    }
+    .aboutus .auscontent ul li .c1{
+        display:block;
+        padding: 0px 0px 0px 15px;
+    }
+    .aboutus .auscontent ul li .c2{
+        display:block;
+        padding: 0px 0px 0px 15px;
+    }
+
+    .aboutus .auscontent ul li .c3{
+        display:block;
+        padding: 0px 0px 0px 20px;
+        
+    }
+    .aboutus div{
+        display: inline-block;
+        width: 50%;
+    }
+    .aboutus .ausimg{
+        display: block;
+        float: right;
+        
+    }
+    .aboutus .ausimg img{
+        height: 500px;
+        width: 100%;
+    }
+
+    .team .u4{
+        display: block;
+        display: inline-block;
+    }
+    .team div{
+        width: 23%;    
+    }
+    .blog div p .name{
+        padding: 0px 210px 0px 0px;
+        
+    }
+    .blog .b2 p{
+        line-height: 1.5;
+    }
+    .sinfo .scontent {
+        width: 70%;
+    }
+    .sinfo .simg img{
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        z-index: -1;
+    }
+    .footer .aus p{
+        line-height: 2;
+        width: 90%;
+
+    }
+    .team div .symbols li i:hover{
+        color: rgb(0, 143, 92);
+    }
+}
+

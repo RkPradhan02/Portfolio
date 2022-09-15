@@ -1,0 +1,600 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+}
+.header{
+    background: rgb(227, 239, 251);
+    padding: 10px 25px 15px 25px;
+    border: 1px solid rgb(227, 239, 251);
+    margin: 0px 0px 2px 0px;
+    height: 60px;
+}
+.header img{
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.header i{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    display: inline-block;
+    padding: 0px 0px 0px 250px;
+    color: rgb(87, 150, 47);
+    font-size: 20px;
+}
+.hero-section{
+    background: url(../images/bg3-min.png);
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hero-section .ff{
+    padding: 20px 15px 0px 15px;
+    height: 380px;
+}
+.hero-section .ff h3{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px 0px -45px 58px;
+    font-size: 28px;
+    color: rgb(96, 165, 51);
+}
+.hero-section .ff h1{
+    font-family: 'Allura', cursive;    font-size: 96px;
+    color: rgb(255, 90, 0);
+    font-weight: lighter;
+    margin: -10px 0px 0px 0px;
+    font-style: italic;
+}
+.hero-section .ff p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 1.125rem;
+    font-style: italic;
+    line-height: 1.6;
+    font-weight: 400;
+}
+input[type="button"]{
+    color: white;
+    background: rgb(87, 150, 47);
+    padding: 10px 25px;
+    font-size: 0.875rem;
+    border: none;
+    font-weight: bold;
+    margin: 20px 0px 20px 0px;
+}
+.hero-section .ff input[type="button"]{
+    margin: 20px 0px 0px 0px;
+}
+.hero-section .ff-img{
+    background: url(../images/what-is-organic-food-scaled-min.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 380px;
+}
+.work{
+    background: rgb(97, 167, 52);
+    color: white;
+    text-align: center;
+    padding: 30px 15px 30px 15px;
+}
+.work h2{
+    font-size: 48px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 0px 20px 0px;
+}
+.work p{
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0px 0px 40px 0px;
+}
+.work .d{
+    display: flex;
+    flex-wrap: wrap;
+}
+.work .d div{
+    width: 100%;
+    margin: 5px 0px 10px 0px;
+    background: white;
+    color:black;
+    height: 350px;
+    text-align: center;
+    flex-direction: column;
+}
+.work .d div i{
+    color: rgb(97, 167, 52);
+    display: block;
+    font-size: 60px;
+    padding: 30px 0px 0px 0px;
+}
+.work .d div h4{
+    padding: 10px 0px 10px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    display: block;
+    font-weight: lighter;
+}
+.work .d div p{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    line-height: 1.6;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+}
+ .work .d .d1{
+    background: url(../images/652bc9b2dcce745a19ac603f9244437e-min.jpg);
+    background-size: 100% 100%;
+}
+.work .d .d2, .work .d .d4, .work .d .d6{
+    padding: 20px 15px 30px 15px;
+}
+.work .d .d3{
+    background: url(../images/d27c2b2bee81bfc4188c5634810a6de9-min.jpg);
+    background-size: 100% 100%;
+}
+.work .d .d5{
+    background: url(../images/890d444c69976b82ac9720c8a77e0795-min.jpg);
+    background-size: 100% 100%;
+} .promise{
+    background: rgb(242, 242, 242);
+}
+.promise .vegie-pic{
+    background: url(../images/pexels-photo-1458694-min.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.promise .orf{
+    width: 100%;
+    background: white;
+    padding: 30px 15px 0px 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.promise .orf h3{
+    font-size: 1.5rem;
+    color: rgb(97, 167, 52);
+}
+.promise .orf h2{
+    font-family: 'Allura', cursive;
+        font-size: 4.0625rem;
+    color: #ff5a00;
+    font-weight: 500;
+}
+.promise .orf p{
+    font-style: italic;
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+.promise .orf input[type="button"]{
+    background: tomato;
+    margin-bottom: 20px;
+}
+.about{
+    background: rgb(97, 167, 52);
+    padding: 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.about h2{
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 50px 0px 10px 0px;
+}
+.about p{
+    line-height: 1.6;
+    font-style: italic;
+    font-size: 16px;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+}
+.grey {
+    background:rgb(242, 242, 242);
+    padding: 30px 15px 30px 15px;
+    color: black;
+}
+.grey div{
+    background: white;
+    display: inline-block;
+}
+.grey div h4{
+    color: rgb(97, 167, 52);
+    padding: 30px 0px 20px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.grey div p{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 0px 20px 0px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.6;
+    font-size: 16px;
+}
+ .grey div img{
+    width: 100%;
+    height: 250px;
+    margin: 0px 0px -5px 0px;
+}
+.btn:hover{
+    background: rgb(87, 150, 47);
+    color: white;
+}
+.animals{
+    background: white;
+    padding: 50px 0px 50px 0px;
+}
+.animals .cow{
+    background: url(../images/org-min.jpg);
+    background-size: 100% 100%;
+    height: 400px;
+}
+.animals .farmanimals{
+    padding: 30px 15px;
+}
+.animals .farmanimals h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(97, 167, 52);
+    font-weight: 600;
+    padding: 0px 0px 7px 50px;
+}
+.animals .farmanimals h2{
+    font-family: 'Allura', cursive;
+        color: #ff5a00;
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 0px 0px 15px 0px;
+}
+.animals .farmanimals p{
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+.animals .farmanimals input[type="button"]{
+    background: #ff5a00;
+}
+.cards{
+    background: rgb(227, 239, 251);
+    padding: 20px;
+}
+.cards div{
+    text-align: center;
+    background: white;
+    padding: 20px;
+    margin: 0px 0px 20px 0px;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+}
+.cards div img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+.cards div h4{
+    font-weight: 300;
+    font-size: 1.7rem;
+    margin: 15px auto;
+}
+.cards div p{
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1rem;
+    padding: 0px 0px 30px 0px ;
+}
+.cards div a{
+    text-decoration: none;
+    font-size: 0.875rem;
+    letter-spacing: 1px;    
+    font-weight: 600;   
+    padding: 5px 0;
+    color: black;
+    padding: 0px 0px 10px 0px;
+}
+.cards div hr{
+    width: 40%;
+    margin: 10px  auto;
+} 
+.ofood{
+    background: white;
+    text-align: center;
+}
+.ofood .of{
+    padding: 20px;
+}
+.ofood .of h3{
+    color:  rgb(97, 167, 52);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: left;
+}
+.ofood .of h2{
+    font-family: 'Allura', cursive;
+        font-size: 4.0625rem;
+    color: #ff5a00;
+    text-align: left;
+    font-weight: 500;
+}
+.ofood .of p{
+    font-style: italic;
+    font-size: 1.125rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+    text-align: left;
+}
+.ofood div input[type="button"]{
+    background: rgb(230, 81, 0);
+}
+.ofood .ofimg{
+    background: url(../images/pexels-photo-143133-min.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+    width: 100%;
+}
+.map-img .map iframe{
+    width: 100vw;
+    height: 400px;
+    margin: -10px 0px 0px 0px;
+}
+.map-img .pic{
+    background: url(../images/pexels-photo-212324-min.jpg);
+    background-size: 100% 100%;
+    height: 400px;
+    width: 100%;
+    margin: -10px 0px -5px 0px;
+    border: none;
+}
+.footer{
+    background: rgb(51, 51, 51);
+    color: white;
+    width: 100%;
+}
+.footer p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 15px;
+}
+.footer p span{
+    color: wheat;
+}
+@media only screen and (min-width:768px){
+    .hero-section div{
+    width: 49%;
+    }
+    .hero-section .ff{
+    padding: 40px 35px;
+    height: 300px;
+    }
+    .hero-section .ff-img{
+        width: 48%;
+        height: 380px;
+    }
+    .hero-section .ff h3{
+        margin: 0px 0px -30px 100px;
+    }
+    .hero-section .ff input[type="button"]{
+        margin: 20px 0px 40px 0px  ;
+    }
+    .work h2{
+        padding: 30px 0px 20px 0px;
+    }
+    .work p{        
+        width: 80%;        
+        margin: 20px auto;
+    }
+    .work .d .d1{
+        order: 0;
+    }
+    .work .d .d2{
+        order: 2;
+    }
+    .work .d .d3{
+        order: 3;
+    }
+    .work .d .d4{
+        order: 1;
+    }
+    .work .d .d5{
+        order: 4;
+    }
+    .work .d .d6{
+        order: 5;
+    }
+    .work .d div{
+        width: 48%; 
+        margin: 0px 10px 10px 0px;
+    }
+    .work .d .d5{
+        display: block;
+        width: 100%;
+    }
+    .work .d .d6{
+        display: block;
+        width: 100%;
+    }
+    .about p{
+        padding: 0px 50px;
+    }
+    .promise{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .promise .vegie-pic{
+        height: 360px;
+        width: 50%;
+    }
+    .promise .orf{
+        width: 48%;
+    }
+    .promise .orf input[type="button"]{
+        margin: 20px 0px 20px 0px ;
+    }
+    .grey div{
+
+        width: 45%;
+        margin: 0px 0px 0px 25px ;
+    }
+        .animals{
+        padding: 0px ;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .animals .cow{
+        width: 50%;
+        height: 500px;
+    }
+    .animals .farmanimals{
+        padding:30px 40px;
+        width: 50%;
+    }
+    .animals .farmanimals input[type="button"]{
+        margin: 20px 0px 0px 0px  ;
+    }
+    .cards{
+        padding: 30px 30px 30px 50px;
+    }
+    .cards div{
+        padding: 20px;
+        width: 46.5%;
+        margin: 0px 20px 20px 0px;
+    }
+    .ofood{
+        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ofood div{
+        width: 50%;
+    }
+    .ofood .of{
+        padding: 30px;
+    }
+    .ofood .ofimg{        
+        height: 600px;
+        width: 50%;
+    }
+    .map-img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .map-img .map{
+        width: 50%;
+        margin:0px 0px 0px 0px;
+    }
+    .map-img .map iframe{
+        width: 100%;
+        height: 400px;
+    }
+    .map-img .pic{
+        height: 400px;
+        width: 50%;
+    }
+    .footer{
+        text-align: center;
+        margin: -4px 0px 0px 0px;
+    }
+}
+@media only screen and (min-width:1024px){
+    .hero-section .ff-img{
+        height: 349px;
+    }
+    .work .d .d5, .work .d .d6{
+        display: flex;
+        width: 32.3%;
+    }
+    .work .d{
+        justify-content:space-between; 
+    }
+    .work .d div{
+        width: 32.3%;
+    }
+    .work .d .d1{
+        order: 0;
+    }
+    .work .d .d2{
+        order: 3;
+    }
+    .work .d .d3{
+        order: 2;
+    }
+    .work .d .d4{
+        order: 1;
+    }
+    .work .d .d5{
+        order: 4;
+    }
+    .work .d .d6{
+        order: 5;
+    }
+     .promise .orf{
+        padding: 20px 30px 0px 40px;
+    }
+    .work .arbfrm{
+        width: 33%;
+        margin: 0px 0px 0px 0px ;
+    }
+    .work .af{
+        width: 33%;
+        margin: 0px 0px 0px 0px;
+    }
+    .work .af p{
+        padding: 0px 0px 0px 0px;
+    }
+    .grey{
+        text-align: center;
+    }
+    .grey div{
+        width: 20%;
+        margin: 0px 20px 0px 0px;
+    }
+    .cards{
+        text-align: center;
+    }
+    .cards div{
+        width: 30%;
+        margin: 0px 20px 0px 0px;
+    }
+    .ofood .of{
+        padding: 50px 60px 0px 80px;
+    }
+}
+@media only screen and (min-width:1200px){
+    .hero-section .ff{
+        padding: 40px 100px;
+    }
+    .about p{
+        margin: 0px 0px 30px 0px;
+        padding: 0px 100px 0px 100px;
+    }
+    .promise .orf{
+        padding: 60px 60px 0px 60px;
+    }
+    .animals .farmanimals{
+        padding:100px 100px 0px 80px;
+    }
+    .cards div{
+        width: 28%;
+        margin: 0px 20px 0px 0px;
+    }    
+    .ofood .of{
+        padding: 120px 60px 0px 150px;
+    }
+}
+

@@ -1,0 +1,358 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: content-box; */
+}
+.help-chat{
+    background:rgb(0, 160, 240);
+            position: fixed;
+            bottom: 30px;
+            right: 0px;
+            z-index: 1000;
+            padding: 15px;
+            border-radius: 100%;
+            cursor: pointer;
+
+}
+#header{
+    background-color: white;
+    position: sticky;
+    z-index: 1080;
+     top: 0px;
+}
+#header img{
+    margin: 0px 0px -120px 20px;
+    position: sticky;
+}
+#header ul {
+    position: sticky;
+}
+.carousel-item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient( to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+.carousel-caption {
+    z-index: 2;
+}
+.carousel-caption h2{
+    font-size: 48px;
+    width: 50%;
+    font-family: 'Merriweather', serif;
+}
+.carousel-caption h2 span{
+    color: red;
+}
+.carousel-item ul li{
+    display: flex;
+    font-size: 20px ;
+    align-items: center;
+    margin: 0px 0px 20px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.carousel-item ul li i{
+    color: red;
+    margin: 0px 20px 0px -30px;
+}
+#hero-section button span{
+    border: 1px solid white;
+    padding: 20px;
+}
+#hero-section button span:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    transition: 1s;
+}
+#booking input[type="button"]:hover, #suabru input[type="button"]:hover{
+    background: black;
+    color: white;
+    border: 1px solid red;
+}
+#subaru .card-title{
+    color: rgb(255, 31, 31);
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+}
+.work h2, .gallery h2, .service h2, .recommended h2, .team h2, .why_us h2, .blog h2, .blog h3, .partners h2, .about_news h3{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+#subaru hr, .work hr, .gallery hr, .service hr, .recommended hr, .team hr, .why_us hr, .blog hr, .partners hr{
+    opacity: 1;
+    border: 1px solid rgb(255, 31, 31) ;
+}
+#subaru h3{
+    font-size: 48px;
+}
+#subaru h3 span sup{
+    font-size: 14px;
+    margin: 0px 0px 20px 0px;
+}
+#suabru input[type="button"]:hover{
+   background-color: rgb(0, 0, 0);
+}
+.pc img, .w_img img{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    z-index: 5;
+  }
+.work .LUXES{
+    position: relative;
+    padding: 5px ;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    overflow: hidden;
+}
+.work .MINI{
+    padding: 5px ;
+    position: relative;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    overflow: hidden;
+
+}
+.work .PORSCHE{
+    padding: 5px;
+    position: relative;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    overflow: hidden;
+
+}
+.work .MERCEDES{
+    padding: 5px;
+    position: relative;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    overflow: hidden;
+}
+.work .MERCEDES:hover, .work .PORSCHE:hover, .work .MINI:hover, .work .LUXES:hover{
+    background-size: 110% 110%;
+    transition: 1s;
+}
+.gallery .btns div input[type="button"]{
+    border-top: 1px ;
+    border-left: 1px;
+    border-right: 1px;
+    margin: 0px 0px 0px 5px;
+}
+.cars_pics div img{
+    height: 320px;
+    width: 100%;
+}
+.svr .card, .member .card{
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+  .overlay1 {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    color: black;
+    background-color: white;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+.items .card{
+    /* height: 100px ; */
+    width: 80%;
+    /* background: aqua; */
+}
+  .svr .card:hover .overlay, .member .card:hover .overlay1 {
+    width: 100%;
+    left: 0;
+  }
+.team{
+    background: url(../images/team-bg-min.jpg);
+    background-size: 100% 100%;
+    color: white;
+    background-attachment: fixed;
+}
+.why_us .p_service{
+    position: relative;
+    padding: 5px ;
+}
+.why_us .support{
+    position: relative;
+    padding: 5px ;
+}
+.why_us .price{
+    position: relative;
+    padding: 5px ;
+}
+.why_us .trust{
+    position: relative;
+    padding: 5px ;
+}
+.blog .b1{
+    background: url(../images/blog_grid_3-min.jpg) center ;
+    background-size: 100% 100%;
+}
+.blog .b2{
+    background: url(../images/blog_grid_4-min.jpg) center ;
+    background-size: 100% 100%;
+}
+.blog .b3{
+    background: url(../images/blog_grid_2-min.jpg) center ;
+    background-size: 100% 100%;
+}
+.blog .card:hover .b1, .blog .card:hover .b2, .blog .card:hover .b3{
+    background-size: 110% 110%;
+    transition: 1s;
+}
+.blog .card:hover h3{
+    color: rgb(255, 0, 0);
+}
+.subscribe:hover{
+    color: rgb(255, 0, 0) !important;
+    background: white !important;
+    font-weight: bold !important;
+}
+button:hover{
+    background: rgb(255, 0, 0) !important;
+    color: white !important;
+    border: 0px !important;
+}
+/* .blog .b1:hover, .blog .b2:hover, .blog .b3:hover{
+    background-size: 110% 110%;
+    transition: 1s;
+} */
+.p_service:hover, .support:hover, .price:hover, .trust:hover{
+    border: 5px solid rgb(255, 0, 0) !important;
+    transform: scale(0.8,0.8) !important;
+    transition: 1s;
+
+}
+
+.snip1217 {
+    /* font-family: 'Raleway', Arial, sans-serif; */
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  .snip1217 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  .snip1217 li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0.5em 1.5em;
+    padding: 0;
+  }
+  .snip1217 a {
+    padding: 0.3em 0;
+    color: black !important;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .snip1217 a:before,
+  .snip1217 a:after {
+    height: 3px;
+    position: absolute;
+    content: '';
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    background-color: rgb(255, 0, 0);
+    width: 0;
+  }
+  .snip1217 a:before {
+    top: 0;
+    left: 0;
+  }
+  .snip1217 a:after {
+    bottom: 0;
+    right: 0;
+  }
+  .snip1217 a:hover,
+  .snip1217 .current a {
+    color: black;
+  }
+  .snip1217 a:hover:before,
+  .snip1217 .current a:before,
+  .snip1217 a:hover:after,
+  .snip1217 .current a:after {
+    width: 100%;
+  }
+ .controller:hover{
+     background: transparent !important;
+ }
+.cc:hover{
+    background: rgb(255, 0, 0) !important;
+    transition: 1s;
+}
+.bg-red{
+    background: rgb(255, 0, 0) !important;
+}
+
+
+.p_service:hover div, .support:hover div, .price:hover div, .trust:hover div{
+    color: rgb(255, 0, 0) !important;
+    transition: 2s;
+}
+.cars_pics img:hover{
+    border: 5px solid rgb(255, 0, 0) ;
+}
+.pc img:hover{
+    transform: scale(1.1,1.1);
+    filter: grayscale(100%);
+    transition: 2s;
+}
+.icons {
+    margin: 0px 0px 0px -30px;
+}
+.icons li i{
+    color: white;
+    border: 2px solid white;
+    padding: 10px;    
+}
+.icons li i:hover{
+    background-color: rgb(255, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
+    color: white;
+    transition: 1s;
+}
+.about_news input[type="button"], .footer{
+    background: rgb(255, 0, 0);
+    color: white;
+}
